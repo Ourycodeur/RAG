@@ -100,9 +100,9 @@ pip install -r requirements.txt
 Créer un fichier `.env`
 
 ```env
-MISTRAL_API_KEY
-MODEL_ID
-EMBEDDING_MODEL
+MISTRAL_API_KEY = sur mistral génerer une clé 
+MODEL_ID = "mistral-large-latest"
+EMBEDDING_MODEL = "mistral-embed"
 ```
 
 ---
