@@ -22,9 +22,6 @@ __pycache__/
 # Fichiers lourds inutiles dans Docker
 
 
-# Tests
-test/
-tests/
 
 # Logs
 *.log
