@@ -21,7 +21,7 @@ __pycache__/
 
 # Fichiers lourds inutiles dans Docker
 
-
+.csv
 
 # Logs
 *.log
