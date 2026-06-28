@@ -20,8 +20,7 @@ __pycache__/
 *.ipynb
 
 # Fichiers lourds inutiles dans Docker
-*.faiss
-*.csv
+
 
 # Tests
 test/
