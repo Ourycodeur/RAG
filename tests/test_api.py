@@ -23,4 +23,13 @@ def test_ask_endpoint():
 
     assert "answer" in response.json()
     
-    
+def test_empty_question():
+
+    response = client.post(
+        "/ask",
+        json={
+            "question":""
+        }
+    )
+
+    assert response.status_code == 400
